@@ -40,3 +40,7 @@ qplot(Year,nuSpecies,data=beetlesSN,geom=c("point","line"))+theme_bw()
 beetlesTC<-ddply(beetles,.(Year),summarise,totCount=sum(Count))
 
 qplot(Year,totCount,data=beetlesTC,geom=c("point","line"))+theme_bw()
+
+# test comment
+
+
